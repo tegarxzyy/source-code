@@ -1,9 +1,6 @@
-<p align="center">
-  <img alt="title" src="https://raw.githubusercontent.com/zephyrinee/zephyrinee/refs/heads/main/images.png" />
-</p>
 
 <p align="center">
-  <b>Ahmad Azizie Adnan</b><br>
+  <b>Tegarxzyy Ai WormGPT</b><br>
   Automation Bot Developer focused on WhatsApp & Telegram
 </p>
 
