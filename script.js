@@ -270,12 +270,12 @@ async function sendCurrentText() {
   } catch (e) {
     typingRow.remove();
     
-    let errorMsg = "Gagal mendapatkan jawaban dari Tekograf karena masalah database. Silahkan hubungi developer. ";
+    let errorMsg = "Gagal mendapatkan jawaban dari WormGPT karena masalah database. Silahkan hubungi developer. ";
     
     if (navigator.userAgent.includes('Telegram')) {
-      errorMsg += "Gagal mendapatkan jawaban dari Tekograf karena koneksi anda terputus. Silahkan berikan perintah ulang. ";
+      errorMsg += "Gagal mendapatkan jawaban dari WormGPT karena koneksi anda terputus. Silahkan berikan perintah ulang. ";
     } else {
-      errorMsg += "Gagal mendapatkan jawaban dari Tekograf karena masalah endpoint api. Silahkan hubungi developer. ";
+      errorMsg += "Gagal mendapatkan jawaban dari WormGPT karena masalah endpoint api. Silahkan hubungi developer. ";
     }
     
     errorMsg += "Error: " + (e.message || "Unknown error");
@@ -292,7 +292,7 @@ $("menuBtn").addEventListener("click", () => toggleSidebar());
 $("sideClose").addEventListener("click", closeSidebar);
 sidebarBackdrop.addEventListener("click", closeSidebar);
 
-$("telegramBtn").addEventListener("click", () => window.open("https://t.me/tegarxzyy", "_blank", "noopener,noreferrer"));
+$("telegramBtn").addEventListener("click", () => window.open("https://t.me/pherine", "_blank", "noopener,noreferrer"));
 $("newChatTopBtn").addEventListener("click", startNewChat);
 
 $("plusBtn").addEventListener("click", () => toastShow("Fiture ini masih dalam pemeliharaan"));
